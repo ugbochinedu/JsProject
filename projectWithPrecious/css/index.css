@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container{
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    width: 500px;
+    height: 400px;
+    background: rgba(140, 140, 220, 0.477);
+}
+
+.main-container :where(.add-inputs, .sub-inputs, .mult-inputs, .facto, .fibno){
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add-inputs{
+    display: none;
+    justify-content: center;
+    gap: 10px
+}
+
+.main-container .sub-inputs.active{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.main-container .mult-inputs.active{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.main-container .facto{
+    display: none;
+    justify-content: center;
+    gap: 10px
+}
+
+/* .main-container .fibno.active{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+} */
+
+input{
+    width: 50px;
+    height: 40px;
+    outline: none;
+    border-radius: 2px;
+    border: unset;
+}
+
+.sub-inputs h1{
+    margin-top: -5px;
+}
+
+.add-inputs{
+    margin-top: 50PX;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+#select{
+    outline: none;
+    font-size: 18px;
+    height: 45px;
+}
+
+/* .add-p-tag{
+
+} */
+
+
+
+ 

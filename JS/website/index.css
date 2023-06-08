@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navBar h1{
+    font-size: 20px;
+}
+
+.navBar a:hover{
+    color: blue;
+}
+.nameAndIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.welcomeBack{
+    width: 280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    justify-content: center;
+}
+
+.welcomeBack h1{
+    font-size: 14px;
+    color: rgb(82, 81, 81);
+}
+
+.button button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(223, 219, 219);
+    border-radius: 5px;
+    cursor:pointer;
+    box-shadow: 1px 1px 5px 0px gray;
+}
+
+.button button:hover{
+    background-color: rgb(153, 153, 220);
+    color: white;
+}
+
+hr{
+    width: 500px;
+}
+
+.line{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+}
